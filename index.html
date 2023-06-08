@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redes sociais</title>
+    <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            background-position: center center;
+            display: flex;           
+        }
+        .celular{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);           
+        }       
+       
+        iframe{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            margin-top: 80px;                     
+        }
+        .botoes{
+            display: block;
+            width: 100vw;
+            text-align: right;
+        }
+        .botoes img{     
+            width: 60px;
+            border-radius: 50%;
+            text-align: right;
+            box-sizing: border-box;
+            margin: 5px;
+            transition: transform .5s, border .3s;    
+        }
+        .botoes img:hover{
+            border: 4px solid white;
+            transform: translate(-2px, -2px);
+                   
+        }  
+       
+    </style>
+</head>
+<body>
+    <main>
+        <section class="celular"><img src="pacote-d013/imagens/frame-iphone.png" alt="" class="iphone">
+            <iframe src="telahome.html" frameborder="0" width="268px" height="470px" name="tela"></iframe>
+        </section>
+        <section class="botoes">
+            <a href="telahome.html" target="tela" ><img src="pacote-d013/imagens/logo-home.jpg" alt=""></a><br>
+            <a href="telayoutube.html" target="tela" ><img src="pacote-d013/imagens/logo-youtube.jpg" alt=""></a><br>
+            <a href="telagithub.html" target="tela"><img src="pacote-d013/imagens/logo-github.jpg" alt=""></a><br>
+            <a href="telainstagram.html" target="tela"><img src="pacote-d013/imagens/logo-instagram.jpg" alt=""></a><br>
+            <a href="telatwitter.html" target="tela"><img src="pacote-d013/imagens/logo-twitter.jpg" alt=""></a><br>
+            <a href="telafacebook.html" target="tela"><img src="pacote-d013/imagens/logo-facebook.jpg" alt=""></a>
+        
+        </section>
+    </main>
+    
+
+    
+</body>
+</html>

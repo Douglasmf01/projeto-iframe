@@ -1,0 +1,21 @@
+img{
+    width: 100%;
+
+}
+
+.lfooter{
+    display: block;
+    text-decoration: none;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.lfooter:hover{
+    background-color: white;
+    color: red;
+    transition: background-color .3s, color .5s ;
+
+}
